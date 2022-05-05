@@ -1,0 +1,98 @@
+.header1-header {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.header1-image {
+  height: 2rem;
+}
+.header1-nav {
+  display: flex;
+}
+.header1-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header1-button {
+  border-width: 0px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.header1-menu-burger {
+  display: none;
+}
+.header1-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  display: none;
+}
+.header1-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.header1-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.header1-image1 {
+  height: 2rem;
+}
+.header1-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.header1-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.header1-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.header1-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+
+@media(max-width: 991px) {
+  .header1-icon {
+    display: flex;
+  }
+}
+@media(max-width: 767px) {
+  .header1-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .header1-nav {
+    display: none;
+  }
+  .header1-btn-group {
+    display: none;
+  }
+  .header1-menu-burger {
+    display: flex;
+  }
+}
+@media(max-width: 479px) {
+  .header1-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .header1-menu-mobile {
+    padding: 16px;
+  }
+}

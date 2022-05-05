@@ -1,0 +1,21 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.home-image {
+  width: 270px;
+  height: 229px;
+  align-self: flex-start;
+  object-fit: cover;
+}
+.home-image1 {
+  width: 100px;
+  object-fit: cover;
+}
+.home-text {
+  font-size: 25px;
+}
